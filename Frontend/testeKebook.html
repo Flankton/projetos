@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Kebook</title>
+    <link rel="stylesheet" href="css/testeKebook.css">
+    <style>
+
+    </style>
+
+
+    
+</head>
+
+<body>
+    <div>
+        <h1>Nossos Planos</h1>
+        <h2>Selecione o número de clientes que deseja<br>
+            gerencias para ver nossos valores<br><br><br>
+        <b>SELECIONE A QUANTIDADE DE PERFIS</b>
+        </h2>
+        <section class="grid grid1">
+            <div class="itemQuantidade">
+                <input type="image" src="imagens/right-left.png" id="btnDecrementar">
+                <span id="contador"></span>
+                <input type="image" src="imagens/right-arrow.png" id="btnAcrescentar"><br>
+                <input type="range" min="1" max="10" value="1" class="slider" id="myRange">
+                
+                <p>Cada perfil contempla</p>
+                <img src="imagens/facebook.png">
+                <img src="imagens/instagram.png">
+                <img src="imagens/linkedin.png">
+                <img src="imagens/youtube.png">
+                <img src="imagens/twitter.png">
+                
+            </div>
+            
+            <div class="itemPeriodo"><br><br><br>SELECIONE O PERÍODO DO SEU PAGAMENTO<br><br><br>
+                 <button class="btnPlanoMensal" id="btnMensal">Mensal</button>
+                 <button class="btnPlanoAnual" id="btnAnual">Anual</button>
+            </div>
+    
+            <div class="itemPlanoHeader"><br>Plano Completo</div>
+            <div class="itemPlano">
+               <span id="ValorTotal"></span> 
+                <br><a id="urlBtnComprar" href="" target="_blank"><button  id="btnComprar" class="btn" type="button">Comprar Agora</button></a>
+            </div>
+        </section>
+    </div>
+    
+        
+    <script src="js/testeKebook.js"></script>
+</body>
+
+</html>
